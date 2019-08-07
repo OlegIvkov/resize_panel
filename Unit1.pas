@@ -21,6 +21,7 @@ type
     Panel7: TPanel;
     Button1: TButton;
     Button2: TButton;
+    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }

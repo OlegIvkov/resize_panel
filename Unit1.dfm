@@ -61,6 +61,13 @@ object Form1: TForm1
       Align = alTop
       Caption = 'Panel3'
       TabOrder = 0
+      object Label1: TLabel
+        Left = 88
+        Top = 8
+        Width = 31
+        Height = 13
+        Caption = 'Label1'
+      end
       object Button1: TButton
         Left = 0
         Top = 2
