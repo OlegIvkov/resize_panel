@@ -61,6 +61,13 @@ object Form1: TForm1
       Align = alTop
       Caption = 'Panel3'
       TabOrder = 0
+      object Label1: TLabel
+        Left = 88
+        Top = 8
+        Width = 31
+        Height = 13
+        Caption = 'Label1'
+      end
       object Button1: TButton
         Left = 0
         Top = 2
@@ -79,8 +86,6 @@ object Form1: TForm1
       Align = alLeft
       Caption = 'Panel4'
       TabOrder = 1
-      ExplicitTop = 42
-      ExplicitHeight = 423
     end
     object Panel5: TPanel
       Left = 116
@@ -90,8 +95,6 @@ object Form1: TForm1
       Align = alLeft
       Caption = 'Panel5'
       TabOrder = 2
-      ExplicitTop = 42
-      ExplicitHeight = 423
     end
     object Panel6: TPanel
       Left = 236
@@ -101,8 +104,6 @@ object Form1: TForm1
       Align = alLeft
       Caption = 'Panel6'
       TabOrder = 3
-      ExplicitTop = 42
-      ExplicitHeight = 423
     end
     object Panel7: TPanel
       Left = 356
@@ -112,10 +113,6 @@ object Form1: TForm1
       Align = alClient
       Caption = 'Panel7'
       TabOrder = 4
-      ExplicitLeft = 416
-      ExplicitTop = 264
-      ExplicitWidth = 185
-      ExplicitHeight = 41
     end
   end
   object Panel2: TPanel
@@ -126,9 +123,5 @@ object Form1: TForm1
     Align = alClient
     Caption = 'Panel2'
     TabOrder = 1
-    ExplicitLeft = 752
-    ExplicitTop = 296
-    ExplicitWidth = 185
-    ExplicitHeight = 41
   end
 end

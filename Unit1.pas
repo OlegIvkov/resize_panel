@@ -20,6 +20,7 @@ type
     Splitter4: TSplitter;
     Panel7: TPanel;
     Button1: TButton;
+    Label1: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
